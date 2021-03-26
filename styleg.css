@@ -1,0 +1,36 @@
+
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .btn{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: black;
+  }
+  #hope{
+      opacity:0.9;
+  }
+ .card{
+     max-width: 30rem;
+     max-height: 200px;
+ }
+ .card img{
+	-webkit-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.card-body{
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
